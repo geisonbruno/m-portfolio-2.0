@@ -1,0 +1,16 @@
+{
+  "purpose": "Hermes agent-ready portfolio contract",
+  "working_branch": "hermes/portfolio-v1",
+  "source_of_truth": [
+    "AGENTS.md",
+    "docs/DECISIONS.md",
+    "docs/PRODUCT.md",
+    "docs/CONTENT.md",
+    "docs/DESIGN.md",
+    "docs/ARCHITECTURE.md",
+    "docs/TASKS.md",
+    "docs/ACCEPTANCE.md"
+  ],
+  "visual_reference": "references/portfolio-design.png",
+  "start_instructions": "HERMES_START.md"
+}
