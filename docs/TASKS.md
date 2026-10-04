@@ -29,15 +29,15 @@ Mark an item complete only after the implementation exists and relevant checks p
 - [x] Represent exactly two projects: ReturnFlow and Oz Radar.
 - [x] Handle unresolved external URLs safely without fake links.
 - [x] Add tests for content/project count where useful.
-- [ ] Commit content/data foundation separately.
+- [x] Commit content/data foundation separately.
 
 ## Phase 3 — Visual foundation
 
-- [ ] Implement global dark/light design tokens.
-- [ ] Implement typography direction from `docs/DESIGN.md`.
-- [ ] Implement page container, spacing and divider system.
-- [ ] Implement responsive base styles.
-- [ ] Confirm no default template styling remains.
+- [x] Implement global dark/light design tokens.
+- [x] Implement typography direction from `docs/DESIGN.md`.
+- [x] Implement page container, spacing and divider system.
+- [x] Implement responsive base styles.
+- [x] Confirm no default template styling remains.
 - [ ] Commit visual foundation separately.
 
 ## Phase 4 — Header and controls

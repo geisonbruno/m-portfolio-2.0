@@ -1,1 +1,86 @@
 @import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+  --background: #0c0e0f;
+  --foreground: #f2f1ee;
+  --muted: #a9aaad;
+  --border: #303235;
+  --surface: #16191b;
+  --font-sans: "Geist", "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: "Departure Mono", "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+}
+
+[data-theme="light"] {
+  color-scheme: light;
+  --background: #f6f5f1;
+  --foreground: #17191a;
+  --muted: #5b5e60;
+  --border: #d0d1cb;
+  --surface: #ecebe6;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-surface: var(--surface);
+}
+
+* { box-sizing: border-box; }
+
+html { background: var(--background); }
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+button, a { -webkit-tap-highlight-color: transparent; }
+button { cursor: pointer; }
+button, a, [tabindex] { outline-offset: 5px; }
+:focus-visible { outline: 2px solid var(--foreground); }
+::selection { background: var(--foreground); color: var(--background); }
+
+.page-shell {
+  width: min(100%, 1160px);
+  margin-inline: auto;
+  padding-inline: clamp(20px, 5.5vw, 64px);
+}
+
+.section {
+  border-top: 1px solid var(--border);
+  padding-block: 28px 36px;
+}
+
+.section-title {
+  margin: 0 0 24px;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 0.09em;
+  line-height: 1.5;
+}
+
+.copy {
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.7;
+  max-width: 65ch;
+}
+
+@media (min-width: 640px) {
+  .content-inset { margin-left: 72px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
