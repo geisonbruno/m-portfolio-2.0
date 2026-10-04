@@ -20,15 +20,15 @@ Mark an item complete only after the implementation exists and relevant checks p
 - [x] Configure Vitest + React Testing Library.
 - [x] Add `lint`, `typecheck`, `test`, `build` and `verify` npm scripts.
 - [x] Confirm `npm run verify` is operational.
-- [ ] Commit the baseline separately.
+- [x] Commit the baseline separately.
 
 ## Phase 2 — Content/data foundation
 
-- [ ] Create a typed central content model from `docs/CONTENT.md`.
-- [ ] Represent EN and PT-BR content centrally.
-- [ ] Represent exactly two projects: ReturnFlow and Oz Radar.
-- [ ] Handle unresolved external URLs safely without fake links.
-- [ ] Add tests for content/project count where useful.
+- [x] Create a typed central content model from `docs/CONTENT.md`.
+- [x] Represent EN and PT-BR content centrally.
+- [x] Represent exactly two projects: ReturnFlow and Oz Radar.
+- [x] Handle unresolved external URLs safely without fake links.
+- [x] Add tests for content/project count where useful.
 - [ ] Commit content/data foundation separately.
 
 ## Phase 3 — Visual foundation
