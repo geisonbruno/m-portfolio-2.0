@@ -14,12 +14,12 @@ Mark an item complete only after the implementation exists and relevant checks p
 
 ## Phase 1 — Scaffold and engineering baseline
 
-- [ ] Scaffold the Next.js + TypeScript + Tailwind application if it does not already exist.
-- [ ] Enable/confirm TypeScript strict mode.
-- [ ] Configure linting.
-- [ ] Configure Vitest + React Testing Library.
-- [ ] Add `lint`, `typecheck`, `test`, `build` and `verify` npm scripts.
-- [ ] Confirm `npm run verify` is operational.
+- [x] Scaffold the Next.js + TypeScript + Tailwind application if it does not already exist.
+- [x] Enable/confirm TypeScript strict mode.
+- [x] Configure linting.
+- [x] Configure Vitest + React Testing Library.
+- [x] Add `lint`, `typecheck`, `test`, `build` and `verify` npm scripts.
+- [x] Confirm `npm run verify` is operational.
 - [ ] Commit the baseline separately.
 
 ## Phase 2 — Content/data foundation
