@@ -6,11 +6,11 @@ Mark an item complete only after the implementation exists and relevant checks p
 
 ## Phase 0 — Repository discovery
 
-- [ ] Inspect the repository and preserve any legitimate existing work.
-- [ ] Confirm/create branch `hermes/portfolio-v1`.
-- [ ] Read every source-of-truth file referenced by `AGENTS.md`.
-- [ ] Inspect `/references/portfolio-design.png`.
-- [ ] Record any pre-existing implementation constraints before changing code.
+- [x] Inspect the repository and preserve any legitimate existing work.
+- [x] Confirm/create branch `hermes/portfolio-v1`.
+- [x] Read every source-of-truth file referenced by `AGENTS.md`.
+- [x] Inspect `/references/portfolio-design.png`.
+- [x] Record any pre-existing implementation constraints before changing code.
 
 ## Phase 1 — Scaffold and engineering baseline
 
