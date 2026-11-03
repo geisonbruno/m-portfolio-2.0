@@ -72,13 +72,13 @@ Mark an item complete only after the implementation exists and relevant checks p
 - [x] Open valid project GitHub URLs in new tabs.
 - [x] Never render placeholder URLs as links.
 - [x] Confirm there are exactly two projects.
-- [ ] Commit projects separately.
+- [x] Commit projects separately.
 
 ## Phase 7 — Experience
 
-- [ ] Implement Flux Tecnologia experience.
-- [ ] Implement role, period and translated description.
-- [ ] Match the restrained visual treatment.
+- [x] Implement Flux Tecnologia experience.
+- [x] Implement role, period and translated description.
+- [x] Match the restrained visual treatment.
 - [ ] Commit experience separately.
 
 ## Phase 8 — About and footer
