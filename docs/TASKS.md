@@ -38,19 +38,19 @@ Mark an item complete only after the implementation exists and relevant checks p
 - [x] Implement page container, spacing and divider system.
 - [x] Implement responsive base styles.
 - [x] Confirm no default template styling remains.
-- [ ] Commit visual foundation separately.
+- [x] Commit visual foundation separately.
 
 ## Phase 4 — Header and controls
 
-- [ ] Build minimal header.
-- [ ] Add EN/PT language switch.
-- [ ] English is default with no saved preference.
-- [ ] Persist language selection locally.
-- [ ] Add dark/light theme switch.
-- [ ] Dark is default with no saved preference.
-- [ ] Persist theme selection locally.
-- [ ] Add accessible names and keyboard behaviour.
-- [ ] Add/update interaction tests.
+- [x] Build minimal header.
+- [x] Add EN/PT language switch.
+- [x] English is default with no saved preference.
+- [x] Persist language selection locally.
+- [x] Add dark/light theme switch.
+- [x] Dark is default with no saved preference.
+- [x] Persist theme selection locally.
+- [x] Add accessible names and keyboard behaviour.
+- [x] Add/update interaction tests.
 - [ ] Commit header/controls separately.
 
 ## Phase 5 — Hero
