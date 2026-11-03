@@ -51,15 +51,15 @@ Mark an item complete only after the implementation exists and relevant checks p
 - [x] Persist theme selection locally.
 - [x] Add accessible names and keyboard behaviour.
 - [x] Add/update interaction tests.
-- [ ] Commit header/controls separately.
+- [x] Commit header/controls separately.
 
 ## Phase 5 — Hero
 
-- [ ] Implement approved intro.
-- [ ] Implement approved main phrase.
-- [ ] Implement location line.
-- [ ] Match reference hierarchy without copying obsolete copy.
-- [ ] Verify EN and PT-BR.
+- [x] Implement approved intro.
+- [x] Implement approved main phrase.
+- [x] Implement location line.
+- [x] Match reference hierarchy without copying obsolete copy.
+- [x] Verify EN and PT-BR.
 - [ ] Commit hero separately.
 
 ## Phase 6 — Selected Projects

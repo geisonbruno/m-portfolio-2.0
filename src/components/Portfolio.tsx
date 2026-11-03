@@ -5,6 +5,7 @@ import { ui, type Locale } from "@/content/portfolio";
 import { localeKey, themeKey, type Theme } from "@/lib/preferences";
 import { usePreference } from "@/lib/usePreference";
 import { Header } from "./Header";
+import { Hero } from "./Hero";
 
 export function Portfolio() {
   const [locale, setLocale] = usePreference<Locale>(localeKey, "en", ["en", "pt-BR"]);
@@ -25,7 +26,9 @@ export function Portfolio() {
     <div className="page-shell">
       <a className="skip-link" href="#content">{ui.skip[locale]}</a>
       <Header locale={locale} theme={theme} setLocale={setLocale} setTheme={changeTheme} />
-      <main id="content" tabIndex={-1} />
+      <main id="content" tabIndex={-1}>
+        <Hero locale={locale} />
+      </main>
     </div>
   );
 }
