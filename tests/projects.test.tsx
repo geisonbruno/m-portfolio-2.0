@@ -33,7 +33,7 @@ test("a supplied GitHub repository opens directly in a safe new tab", () => {
   expect(link).toHaveAttribute("rel", "noopener noreferrer");
 });
 
-test.each([null, "", "[ADD RETURNFLOW GITHUB URL]", "javascript:alert(1)", "http://github.com/example/repo", "https://github.com.evil.example/a/b", "https://user:pass@github.com/a/b", "https://github.com/example", "https://github.com/a/b/issues", " https://github.com/a/b"])("unresolved or invalid repository destination %s is not navigable", (githubUrl) => {
+test.each([null, "", "[ADD RETURNFLOW GITHUB URL]", "javascript:alert(1)", "http://github.com/example/repo", "https://github.com.evil.example/a/b", "https://user:pass@github.com/a/b", "https://github.com/example", "https://github.com/a/b/issues", " https://github.com/a/b", "https:github.com/a/b"])("unresolved or invalid repository destination %s is not navigable", (githubUrl) => {
   render(<ProjectRow locale="pt-BR" project={{ ...projects[0], githubUrl }} />);
   expect(screen.queryByRole("link")).not.toBeInTheDocument();
   expect(screen.getByRole("article")).toHaveTextContent("link indisponível");

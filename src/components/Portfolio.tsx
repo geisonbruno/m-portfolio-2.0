@@ -8,8 +8,10 @@ import { Header } from "./Header";
 import { Hero } from "./Hero";
 import { Projects } from "./Projects";
 import { Experience } from "./Experience";
+import { About } from "./About";
+import { Footer } from "./Footer";
 
-export function Portfolio() {
+export function Portfolio({ year }: { year: number }) {
   const [locale, setLocale] = usePreference<Locale>(localeKey, "en", ["en", "pt-BR"]);
   const [theme, setTheme] = usePreference<Theme>(themeKey, "dark", ["dark", "light"]);
 
@@ -32,7 +34,9 @@ export function Portfolio() {
         <Hero locale={locale} />
         <Projects locale={locale} />
         <Experience locale={locale} />
+        <About locale={locale} />
       </main>
+      <Footer locale={locale} year={year} />
     </div>
   );
 }

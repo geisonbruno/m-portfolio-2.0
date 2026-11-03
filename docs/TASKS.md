@@ -79,14 +79,14 @@ Mark an item complete only after the implementation exists and relevant checks p
 - [x] Implement Flux Tecnologia experience.
 - [x] Implement role, period and translated description.
 - [x] Match the restrained visual treatment.
-- [ ] Commit experience separately.
+- [x] Commit experience separately.
 
 ## Phase 8 — About and footer
 
-- [ ] Implement About section in EN/PT-BR.
-- [ ] Implement social/contact labels.
-- [ ] Render only resolved social/contact destinations as active links.
-- [ ] Implement copyright from a central/current-year value.
+- [x] Implement About section in EN/PT-BR.
+- [x] Implement social/contact labels.
+- [x] Render only resolved social/contact destinations as active links.
+- [x] Implement copyright from a central/current-year value.
 - [ ] Commit About/footer separately.
 
 ## Phase 9 — Responsive and accessibility pass
