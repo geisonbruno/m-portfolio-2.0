@@ -6,6 +6,7 @@ import { localeKey, themeKey, type Theme } from "@/lib/preferences";
 import { usePreference } from "@/lib/usePreference";
 import { Header } from "./Header";
 import { Hero } from "./Hero";
+import { Projects } from "./Projects";
 
 export function Portfolio() {
   const [locale, setLocale] = usePreference<Locale>(localeKey, "en", ["en", "pt-BR"]);
@@ -28,6 +29,7 @@ export function Portfolio() {
       <Header locale={locale} theme={theme} setLocale={setLocale} setTheme={changeTheme} />
       <main id="content" tabIndex={-1}>
         <Hero locale={locale} />
+        <Projects locale={locale} />
       </main>
     </div>
   );

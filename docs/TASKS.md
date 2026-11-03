@@ -60,18 +60,18 @@ Mark an item complete only after the implementation exists and relevant checks p
 - [x] Implement location line.
 - [x] Match reference hierarchy without copying obsolete copy.
 - [x] Verify EN and PT-BR.
-- [ ] Commit hero separately.
+- [x] Commit hero separately.
 
 ## Phase 6 — Selected Projects
 
-- [ ] Implement section title.
-- [ ] Implement ReturnFlow row.
-- [ ] Implement Oz Radar row.
-- [ ] Render technology labels/tags.
-- [ ] Render years and external-link affordances.
-- [ ] Open valid project GitHub URLs in new tabs.
-- [ ] Never render placeholder URLs as links.
-- [ ] Confirm there are exactly two projects.
+- [x] Implement section title.
+- [x] Implement ReturnFlow row.
+- [x] Implement Oz Radar row.
+- [x] Render technology labels/tags.
+- [x] Render years and external-link affordances.
+- [x] Open valid project GitHub URLs in new tabs.
+- [x] Never render placeholder URLs as links.
+- [x] Confirm there are exactly two projects.
 - [ ] Commit projects separately.
 
 ## Phase 7 — Experience

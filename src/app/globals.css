@@ -94,8 +94,17 @@ button, a, [tabindex] { outline-offset: 5px; }
   overflow-wrap: break-word;
 }
 
+.projects-section { padding-bottom: 0; }
+.project-row { display: grid; grid-template-columns: 1fr; gap: 12px; padding-block: 28px; }
+.project-row + .project-row { border-top: 1px solid var(--border); }
+.project-number { padding-top: 6px; font-family: var(--font-mono); font-size: 0.75rem; color: var(--muted); }
+.project-action { display: inline-grid; place-items: center; min-width: 24px; min-height: 44px; font-size: 1.25rem; }
+a.project-action:hover { background: var(--surface); }
+.technology { border: 1px solid var(--border); padding: 4px 8px; border-radius: 3px; color: var(--muted); font-family: var(--font-mono); font-size: 0.6875rem; line-height: 1.5; }
+
 @media (min-width: 640px) {
   .content-inset { margin-left: 72px; }
+  .project-row { grid-template-columns: 48px minmax(0, 1fr); gap: 24px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
