@@ -141,9 +141,9 @@ If browser/screenshot tooling is available, use it for the visual pass. If it is
 
 - [x] Run final `npm run verify`.
 - [x] Review `git diff` and working tree.
-- [ ] Ensure all intended work is committed.
-- [ ] Push `hermes/portfolio-v1` if remote access is available.
-- [ ] Open a Pull Request to `main` if GitHub access is available.
-- [ ] PR describes implementation, commits/checks, and unresolved external-link placeholders.
-- [ ] Do not merge the PR.
-- [ ] Produce final completion report for the human reviewer.
+- [x] Ensure all intended work is committed.
+- [x] Push `hermes/portfolio-v1` if remote access is available.
+- [x] Open a Pull Request to `main` if GitHub access is available.
+- [x] PR describes implementation, commits/checks, and unresolved external-link placeholders.
+- [x] Do not merge the PR.
+- [x] Produce final completion report for the human reviewer.

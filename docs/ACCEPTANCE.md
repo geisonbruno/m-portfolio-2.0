@@ -62,7 +62,7 @@ The implementation is complete only when all applicable criteria below are true.
 - [x] Resolved project links open GitHub in a new tab.
 - [x] Resolved external links use safe `rel` attributes.
 - [x] Unresolved placeholders never become clickable fake URLs.
-- [ ] Missing external links are listed clearly in the final PR/report.
+- [x] Missing external links are listed clearly in the final PR/report.
 
 ## Accessibility
 
@@ -93,9 +93,9 @@ The implementation is complete only when all applicable criteria below are true.
 - [x] CI runs `npm run verify`.
 - [x] Work is on `hermes/portfolio-v1`.
 - [x] Changes are split into small, understandable commits.
-- [ ] Branch is pushed when remote access is available.
-- [ ] Pull Request to `main` is opened when GitHub access is available.
-- [ ] Agent does not merge its own Pull Request.
+- [x] Branch is pushed when remote access is available.
+- [x] Pull Request to `main` is opened when GitHub access is available.
+- [x] Agent does not merge its own Pull Request.
 
 ## Human review boundary
 
