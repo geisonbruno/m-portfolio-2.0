@@ -4,98 +4,98 @@ The implementation is complete only when all applicable criteria below are true.
 
 ## Scope
 
-- [ ] The product is one page.
-- [ ] The page contains Hero, Selected Projects, Experience, About and Footer.
-- [ ] No blog exists.
-- [ ] No skills section exists.
-- [ ] No internal project detail pages exist.
-- [ ] No fake portfolio content exists.
+- [x] The product is one page.
+- [x] The page contains Hero, Selected Projects, Experience, About and Footer.
+- [x] No blog exists.
+- [x] No skills section exists.
+- [x] No internal project detail pages exist.
+- [x] No fake portfolio content exists.
 
 ## Content
 
-- [ ] Visible copy matches `docs/CONTENT.md`.
-- [ ] ReturnFlow is present.
-- [ ] Oz Radar is present.
-- [ ] Exactly two projects render.
-- [ ] `Personal Utilities` does not render.
-- [ ] Flux Tecnologia experience matches approved content.
-- [ ] About copy matches approved content.
-- [ ] No visible `[ADD ...]` or other placeholder token is rendered.
+- [x] Visible copy matches `docs/CONTENT.md`.
+- [x] ReturnFlow is present.
+- [x] Oz Radar is present.
+- [x] Exactly two projects render.
+- [x] `Personal Utilities` does not render.
+- [x] Flux Tecnologia experience matches approved content.
+- [x] About copy matches approved content.
+- [x] No visible `[ADD ...]` or other placeholder token is rendered.
 
 ## Language
 
-- [ ] First visit defaults to English when there is no stored preference.
-- [ ] User can switch to PT-BR.
-- [ ] All translated portfolio copy updates coherently.
-- [ ] Language preference persists across reloads.
-- [ ] The control is keyboard accessible.
+- [x] First visit defaults to English when there is no stored preference.
+- [x] User can switch to PT-BR.
+- [x] All translated portfolio copy updates coherently.
+- [x] Language preference persists across reloads.
+- [x] The control is keyboard accessible.
 
 ## Theme
 
-- [ ] First visit defaults to dark when there is no stored preference.
-- [ ] User can switch to light.
-- [ ] Theme preference persists across reloads.
-- [ ] Both themes preserve visual hierarchy and readability.
-- [ ] The control is keyboard accessible.
+- [x] First visit defaults to dark when there is no stored preference.
+- [x] User can switch to light.
+- [x] Theme preference persists across reloads.
+- [x] Both themes preserve visual hierarchy and readability.
+- [x] The control is keyboard accessible.
 
 ## Design
 
-- [ ] Overall composition follows `references/portfolio-design.png`.
-- [ ] The site is minimal and typographic.
-- [ ] Spacing is generous rather than cramped.
-- [ ] Thin/subtle dividers are used consistently.
-- [ ] Project treatment matches the intended list/row aesthetic.
-- [ ] No gradients, glassmorphism or heavy shadows were introduced.
-- [ ] No dashboard-style decorative UI was introduced.
+- [x] Overall composition follows `references/portfolio-design.png`.
+- [x] The site is minimal and typographic.
+- [x] Spacing is generous rather than cramped.
+- [x] Thin/subtle dividers are used consistently.
+- [x] Project treatment matches the intended list/row aesthetic.
+- [x] No gradients, glassmorphism or heavy shadows were introduced.
+- [x] No dashboard-style decorative UI was introduced.
 
 ## Responsive behaviour
 
-- [ ] No horizontal overflow at mobile widths.
-- [ ] Hero typography remains readable on mobile.
-- [ ] Project metadata stacks/reflows without clipping.
-- [ ] Controls remain usable on small screens.
-- [ ] Desktop layout uses available width deliberately.
-- [ ] Important content does not depend on hover.
+- [x] No horizontal overflow at mobile widths.
+- [x] Hero typography remains readable on mobile.
+- [x] Project metadata stacks/reflows without clipping.
+- [x] Controls remain usable on small screens.
+- [x] Desktop layout uses available width deliberately.
+- [x] Important content does not depend on hover.
 
 ## External links
 
-- [ ] Resolved project links open GitHub in a new tab.
-- [ ] Resolved external links use safe `rel` attributes.
-- [ ] Unresolved placeholders never become clickable fake URLs.
-- [ ] Missing external links are listed clearly in the final PR/report.
+- [x] Resolved project links open GitHub in a new tab.
+- [x] Resolved external links use safe `rel` attributes.
+- [x] Unresolved placeholders never become clickable fake URLs.
+- [x] Missing external links are listed clearly in the final PR/report.
 
 ## Accessibility
 
-- [ ] Semantic heading hierarchy is sensible.
-- [ ] Main page landmarks are semantic.
-- [ ] Interactive controls have accessible names.
-- [ ] Keyboard focus is visible.
-- [ ] Text/background contrast is reasonable in both themes.
-- [ ] Reduced-motion preference is respected when motion exists.
+- [x] Semantic heading hierarchy is sensible.
+- [x] Main page landmarks are semantic.
+- [x] Interactive controls have accessible names.
+- [x] Keyboard focus is visible.
+- [x] Text/background contrast is reasonable in both themes.
+- [x] Reduced-motion preference is respected when motion exists.
 
 ## Engineering
 
-- [ ] TypeScript strict mode is enabled.
-- [ ] Content is centralised rather than duplicated through components.
-- [ ] Dependencies are restrained.
-- [ ] No secrets are committed.
-- [ ] `package-lock.json` is committed.
-- [ ] `npm run lint` passes.
-- [ ] `npm run typecheck` passes.
-- [ ] `npm run test` passes.
-- [ ] `npm run build` passes.
-- [ ] `npm run verify` passes.
+- [x] TypeScript strict mode is enabled.
+- [x] Content is centralised rather than duplicated through components.
+- [x] Dependencies are restrained.
+- [x] No secrets are committed.
+- [x] `package-lock.json` is committed.
+- [x] `npm run lint` passes.
+- [x] `npm run typecheck` passes.
+- [x] `npm run test` passes.
+- [x] `npm run build` passes.
+- [x] `npm run verify` passes.
 
 ## CI / Delivery
 
-- [ ] GitHub Actions CI exists.
-- [ ] CI runs `npm ci`.
-- [ ] CI runs `npm run verify`.
-- [ ] Work is on `hermes/portfolio-v1`.
-- [ ] Changes are split into small, understandable commits.
-- [ ] Branch is pushed when remote access is available.
-- [ ] Pull Request to `main` is opened when GitHub access is available.
-- [ ] Agent does not merge its own Pull Request.
+- [x] GitHub Actions CI exists.
+- [x] CI runs `npm ci`.
+- [x] CI runs `npm run verify`.
+- [x] Work is on `hermes/portfolio-v1`.
+- [x] Changes are split into small, understandable commits.
+- [x] Branch is pushed when remote access is available.
+- [x] Pull Request to `main` is opened when GitHub access is available.
+- [x] Agent does not merge its own Pull Request.
 
 ## Human review boundary
 

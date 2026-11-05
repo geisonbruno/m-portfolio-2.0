@@ -4,6 +4,40 @@ This repository is designed to be executable by Hermes as an autonomous software
 
 The project requirements live in Git, not in a long chat prompt.
 
+## Run locally
+
+Use the Node.js version in `.nvmrc` (22.23.2) and npm. Core functionality requires no environment variables or credentials.
+
+```bash
+npm ci --strict-peer-deps
+npm run dev
+```
+
+The development server is available at `http://localhost:3000`. To run the production build locally, use `npm run build` followed by `npm start`.
+
+## Verify the implementation
+
+```bash
+npm run verify
+npx playwright install chromium
+npm run test:e2e
+npm audit
+```
+
+`verify` runs lint, strict TypeScript checking, Vitest and the production build in fail-fast order. The separate Playwright suite starts that production build on `127.0.0.1:3100`; leave this port free. It covers responsive layouts, both languages/themes, keyboard interactions, persistence and automated accessibility. Browser screenshots/results are generated under `.qa/` and failures under `test-results/`, all ignored by Git.
+
+GitHub Actions runs the clean install, verification, dependency audit and browser suite for PRs targeting `main` and pushes to `main`. The `browser-qa` artifact contains screenshots and results for human review. See [QA coverage and limitations](docs/QA.md) and [implementation decisions](docs/IMPLEMENTATION.md).
+
+## Maintain content and external links
+
+- Update approved copy in `docs/CONTENT.md` first, then its typed runtime representation in `src/content/portfolio.ts`.
+- The five unresolved destinations live together in `externalLinks`: `returnFlow`, `ozRadar`, `github`, `linkedin` and `email`. Keep them `null` until the owner supplies real destinations; missing values render as non-interactive labels/indicators, never fake links. Do not infer URLs from this repository's owner.
+- When adding destinations, update the browser test's unresolved-link assertion to match the supplied configuration and rerun verification. Link-validation unit tests already cover valid destinations, safe new-tab attributes and rejected unsafe values.
+- Copyright uses the year at static build time. Rebuild after a calendar-year rollover to refresh it.
+- Review the narrowly scoped dependency overrides in `package.json` when upgrading their consumers; their compatibility rationale is documented in `docs/IMPLEMENTATION.md`.
+
+Production delivery remains **PR → passing CI → human review/merge → Vercel Git integration**. There are no manual deployment scripts or hosting credentials in the repository.
+
 ## Before starting Hermes
 
 The repository should contain:
