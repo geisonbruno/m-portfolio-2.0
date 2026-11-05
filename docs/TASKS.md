@@ -116,11 +116,11 @@ Mark an item complete only after the implementation exists and relevant checks p
 
 ## Phase 11 — CI
 
-- [ ] Add GitHub Actions CI workflow.
-- [ ] CI uses `npm ci`.
-- [ ] CI runs `npm run verify`.
-- [ ] CI triggers on PRs to `main` and pushes to `main`.
-- [ ] Commit CI separately.
+- [x] Add GitHub Actions CI workflow.
+- [x] CI uses `npm ci`.
+- [x] CI runs `npm run verify`.
+- [x] CI triggers on PRs to `main` and pushes to `main`.
+- [x] Commit CI separately.
 
 ## Phase 12 — Final design QA
 
