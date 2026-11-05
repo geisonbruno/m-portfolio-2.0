@@ -124,23 +124,23 @@ Mark an item complete only after the implementation exists and relevant checks p
 
 ## Phase 12 — Final design QA
 
-- [ ] Compare implementation against `/references/portfolio-design.png`.
-- [ ] Confirm layout and typography preserve the intended visual direction.
-- [ ] Confirm `CONTENT.md` overrides obsolete text visible in the reference.
-- [ ] Confirm no third project exists.
-- [ ] Confirm dark theme is the default.
-- [ ] Confirm light theme works.
-- [ ] Confirm EN is the default.
-- [ ] Confirm PT-BR works.
-- [ ] Confirm no visible placeholder strings exist.
-- [ ] Confirm no secrets were added.
+- [x] Compare implementation against `/references/portfolio-design.png`.
+- [x] Confirm layout and typography preserve the intended visual direction.
+- [x] Confirm `CONTENT.md` overrides obsolete text visible in the reference.
+- [x] Confirm no third project exists.
+- [x] Confirm dark theme is the default.
+- [x] Confirm light theme works.
+- [x] Confirm EN is the default.
+- [x] Confirm PT-BR works.
+- [x] Confirm no visible placeholder strings exist.
+- [x] Confirm no secrets were added.
 
 If browser/screenshot tooling is available, use it for the visual pass. If it is unavailable, do not invent results; document that limitation in the PR.
 
 ## Phase 13 — Delivery
 
-- [ ] Run final `npm run verify`.
-- [ ] Review `git diff` and working tree.
+- [x] Run final `npm run verify`.
+- [x] Review `git diff` and working tree.
 - [ ] Ensure all intended work is committed.
 - [ ] Push `hermes/portfolio-v1` if remote access is available.
 - [ ] Open a Pull Request to `main` if GitHub access is available.
