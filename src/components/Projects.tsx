@@ -7,7 +7,7 @@ export function ProjectRow({ project, locale }: { project: Project; locale: Loca
     <article className="project-row" aria-labelledby={`project-${project.number}`}>
       <span className="project-number" aria-hidden="true">{project.number}</span>
       <div className="min-w-0">
-        <div className="flex items-baseline justify-between gap-4">
+        <div className="flex flex-wrap items-baseline justify-between gap-4">
           <h3 id={`project-${project.number}`} className="text-xl font-medium tracking-tight sm:text-2xl">{project.name}</h3>
           <div className="flex shrink-0 items-center gap-5">
             <time className="font-mono text-xs text-muted" dateTime={project.year}>{project.year}</time>

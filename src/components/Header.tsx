@@ -13,10 +13,10 @@ export function Header({ locale, theme, setLocale, setTheme }: HeaderProps) {
       <p className="font-mono text-sm tracking-[0.08em] uppercase">{portfolio.name}</p>
       <div className="flex items-center gap-3 font-mono text-xs">
         <div role="group" aria-label={ui.language[locale]} className="flex items-center">
-          <button type="button" lang="en" aria-label="English" aria-pressed={locale === "en"}
+          <button type="button" lang="en" aria-label="EN — English" aria-pressed={locale === "en"}
             className="language-button" onClick={() => setLocale("en")}>{portfolio.languageLabels.en}</button>
           <span aria-hidden="true" className="text-muted">/</span>
-          <button type="button" lang="pt-BR" aria-label="Português brasileiro" aria-pressed={locale === "pt-BR"}
+          <button type="button" lang="pt-BR" aria-label="PT — Português brasileiro" aria-pressed={locale === "pt-BR"}
             className="language-button" onClick={() => setLocale("pt-BR")}>{portfolio.languageLabels["pt-BR"]}</button>
         </div>
         <span aria-hidden="true" className="h-5 border-l border-border" />

@@ -15,7 +15,7 @@ test("about and footer use approved content, current year and safe unresolved so
   for (const label of ["GitHub", "LinkedIn", "Email"]) expect(within(footer).getByText(label)).toBeVisible();
   expect(within(footer).queryByRole("link")).not.toBeInTheDocument();
   expect(footer).not.toHaveTextContent(/\[ADD|\[CURRENT YEAR\]/);
-  await user.click(screen.getByRole("button", { name: "Português brasileiro" }));
+  await user.click(screen.getByRole("button", { name: "PT — Português brasileiro" }));
   const translated = screen.getByRole("region", { name: "SOBRE" });
   expect(translated).toHaveTextContent("Sou Software Engineer com foco em backend, com experiência também em web, mobile e infraestrutura.");
   expect(translated).toHaveTextContent("Gosto de construir coisas úteis, aprender durante o processo e manter as soluções simples.");

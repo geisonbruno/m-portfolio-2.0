@@ -87,32 +87,32 @@ Mark an item complete only after the implementation exists and relevant checks p
 - [x] Implement social/contact labels.
 - [x] Render only resolved social/contact destinations as active links.
 - [x] Implement copyright from a central/current-year value.
-- [ ] Commit About/footer separately.
+- [x] Commit About/footer separately.
 
 ## Phase 9 — Responsive and accessibility pass
 
-- [ ] Verify small mobile layout.
-- [ ] Verify tablet layout.
-- [ ] Verify desktop layout.
-- [ ] Remove horizontal overflow.
-- [ ] Verify readable type sizing.
-- [ ] Verify keyboard navigation.
-- [ ] Verify visible focus states.
-- [ ] Verify semantic heading/landmark structure.
-- [ ] Respect reduced-motion preferences.
-- [ ] Commit responsive/accessibility fixes separately.
+- [x] Verify small mobile layout.
+- [x] Verify tablet layout.
+- [x] Verify desktop layout.
+- [x] Remove horizontal overflow.
+- [x] Verify readable type sizing.
+- [x] Verify keyboard navigation.
+- [x] Verify visible focus states.
+- [x] Verify semantic heading/landmark structure.
+- [x] Respect reduced-motion preferences.
+- [x] Commit responsive/accessibility fixes separately.
 
 ## Phase 10 — Automated quality
 
-- [ ] Ensure language tests pass.
-- [ ] Ensure theme tests pass.
-- [ ] Ensure project-count test passes.
-- [ ] Ensure unresolved-link safety test passes.
-- [ ] Ensure lint passes.
-- [ ] Ensure typecheck passes.
-- [ ] Ensure tests pass.
-- [ ] Ensure production build passes.
-- [ ] Ensure `npm run verify` passes from a clean install state where practical.
+- [x] Ensure language tests pass.
+- [x] Ensure theme tests pass.
+- [x] Ensure project-count test passes.
+- [x] Ensure unresolved-link safety test passes.
+- [x] Ensure lint passes.
+- [x] Ensure typecheck passes.
+- [x] Ensure tests pass.
+- [x] Ensure production build passes.
+- [x] Ensure `npm run verify` passes from a clean install state where practical.
 
 ## Phase 11 — CI
 

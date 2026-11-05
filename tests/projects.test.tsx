@@ -20,7 +20,7 @@ test("renders only ReturnFlow and Oz Radar with approved metadata and no fake li
   expect(entries[1]).toHaveTextContent("Java 21");
   expect(within(section).queryByRole("link")).not.toBeInTheDocument();
   expect(section).not.toHaveTextContent(/Personal Utilities|\[ADD/);
-  await user.click(screen.getByRole("button", { name: "Português brasileiro" }));
+  await user.click(screen.getByRole("button", { name: "PT — Português brasileiro" }));
   expect(screen.getByRole("region", { name: "PROJETOS SELECIONADOS" })).toHaveTextContent("Plataforma para monitoramento e classificação de ofertas da Amazon.");
 });
 

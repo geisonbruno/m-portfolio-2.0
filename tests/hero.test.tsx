@@ -10,7 +10,7 @@ test("hero presents the approved English introduction with one dominant heading"
   expect(screen.getAllByRole("heading", { level: 1 })).toHaveLength(1);
   expect(screen.getByRole("heading", { level: 1 })).toHaveTextContent("Building, learning, rebuilding.");
   expect(screen.getByText("Based in Sydney, Australia.")).toBeVisible();
-  await user.click(screen.getByRole("button", { name: "Português brasileiro" }));
+  await user.click(screen.getByRole("button", { name: "PT — Português brasileiro" }));
   expect(screen.getByText("Oi, sou o Geison.")).toBeVisible();
   expect(screen.getByRole("heading", { level: 1 })).toHaveTextContent("Construindo, aprendendo, reconstruindo.");
   expect(screen.getByText("Em Sydney, Austrália.")).toBeVisible();
